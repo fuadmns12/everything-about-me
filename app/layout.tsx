@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   title: 'Fuad Muslim N.S | English Teacher Tasikmalaya',
   description:
     'Profil Fuad Muslim N.S, English teacher di Tasikmalaya dengan fokus pembelajaran bahasa Inggris interaktif dan pengalaman belajar digital.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: [{ url: '/apple-icon.png', sizes: '180x180' }],
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
